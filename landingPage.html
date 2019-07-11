@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/bfdb0dd42d.js"></script>
+    <title>Product_LandingPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <nav class="d-grid " id="nav-bar">
+            <img class="col1" id="header-img" src="image/tools.jpg" alt="sitelogo webtools image">
+            <ul class="col2 d-flex">
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#tools" class="nav-link">Tools</a></li>
+                <li><a href="#payment" class="nav-link">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="container">
+            <!-- Form -->
+            <h2 class="heading">Sign Up for more resources...</h2>
+            <form class="d-flex d-flex--col" action="https://www.freecodecamp.com/email-submit" id="form">
+                <div class="input-wrapper d-flex">
+                    <label class="form__label" for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </div>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+            <!-- Resources -->
+            <section id="resources">
+                <h3 class="heading">Learning Resourse</h3>
+                <div class="d-flex">
+                    <i class="fab fa-free-code-camp fa-2x"></i>
+                    <div class="content">
+                        <h4>freecodeCamp</h4>
+                        <p>Join a supportive community of millions of coders.
+                            Build projects and earn free certifications.
+                            Get experience by coding for nonprofits.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <i class="fas fa-code fa-2x"></i>
+                    <div class="content">
+                        <h4>CodeAcademy</h4>
+                        <p>Join the Millions Learning to Code With Codecademy.
+                            From building websites to analyzing data, the choice is yours.
+                            Not sure where to start? We'll point you in the right direction.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+            <section id="tools">
+                <h3 class="heading">Developer tools</h3>
+                <div class="d-flex">
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <div class="content">
+                        <h4>Git Hub</h4>
+                        <p>GitHub is a development platform inspired by the way you work.
+                            From open source to business, you can host and review code,
+                            manage projects,
+                            and build software alongside 36 million developers.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <i class="fab fa-codepen fa-2x"></i>
+                    <div class="content">
+                        <h4>CodePen</h4>
+                        <p>CodePen is an online community for testing and showcasing user-created HTML,
+                            CSS and JavaScript code snippets. It functions as an online code editor
+                            and open-source learning environment,
+                            where developers can create code snippets, called "pens," and test them.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <i class="fab fa-youtube-square fa-2x"></i>
+                    <div class="content">
+                        <h4>Youtube</h4>
+                        <p>Want to learn about web development...for in video content ? Then you must check
+                            out these top-notch YouTube channels. Lorem ipsum dolor, sit amet consectetur a
+                            dipisicing elit. Ex illo odio aperiam, repellendus quod maxime iure dolorum similique id
+                            nihil!
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Video -->
+            <section>
+                <h4>Enjoy the flying car idea</h4>
+                <iframe id="video" width="560" height="250" src="https://www.youtube.com/embed/QFNGdGdRfRE?start=22"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+            <!-- payment -->
+            <section id="payment">
+                <h3>We accept...</h3>
+                <div class="d-flex">
+                    <i class="fab fa-cc-visa fa-5x"></i>
+                    <i class="fab fa-cc-mastercard fa-5x"></i>
+                    <i class="fab fa-cc-paypal fa-5x"></i>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
